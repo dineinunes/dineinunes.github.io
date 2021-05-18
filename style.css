@@ -4,12 +4,12 @@
 }
 
 @font-face {
-  font-family: strretch;
+  font-family: "strretch";
   src: url("fonts/STRRETCH_SANS.otf")
 }
 
 @font-face {
-  font-family: strongConcrete;
+  font-family: "strongConcrete";
   src: url("fonts/STRONG-CONCRETE_BOLD.otf");
 }
 
@@ -79,7 +79,7 @@ main.flexContainer {
 
 
 .textContainer p {
-  font-family: strretch;
+  font-family: 'strretch';
   font-size: 10vh;
   text-align: center;
 }
@@ -95,7 +95,7 @@ main.flexContainer {
 }
 
 .mainContent p {
-  font-family: strretch;
+  font-family: 'strretch';
   font-size: 27vh;
   padding: 15px;
 }
@@ -115,7 +115,7 @@ main.flexContainer {
 
 .navigationLinks li a {
   color:#131313;
-  font-family: strretch;
+  font-family: 'strretch';
   font-size: 4.5vw;
   text-decoration: none;
 }
