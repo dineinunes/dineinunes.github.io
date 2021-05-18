@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: strretch;
-  src: url(fonts/STRRETCH_SANS.otf)
+  src: url("fonts/STRRETCH_SANS.otf")
 }
 
 @font-face {
   font-family: strongConcrete;
-  src: url(fonts/STRONG-CONCRETE_BOLD.otf);
+  src: url("fonts/STRONG-CONCRETE_BOLD.otf");
 }
 
 body {
