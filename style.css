@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: strretch;
+  src: url(fonts/STRRETCH_SANS.otf)
+}
+
+@font-face {
+  font-family: strongConcrete;
+  src: url(fonts/STRONG-CONCRETE_BOLD.otf);
+}
+
+body {
+  background-color: #BFBFBF;
+  width: 100%;
+}
+
+main.flexContainer {
+  align-content: center;
+}
+
+.aviPhoto {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 15px;
+}
+
+.changingLinks:hover {
+  font-size: 0;
+}
+
+.changingLinks:hover:after {
+  content: attr(data-hover);
+  font-size: 4.5vw;
+}
+
+.contentSection {
+  align-items: center;
+  height: 100vh;
+  width: 60vw;
+}
+
+.mainFlexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.secondaryFlexContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.imageContainer, .textContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  align-items:flex-end;
+  height: 50%;
+}
+
+.textContainer {
+  align-items: center;
+  height: 100%;
+}
+
+#about .wrap .textContainer {
+  align-items: baseline;
+  height: 50%;
+}
+
+
+
+.textContainer p {
+  font-family: strretch;
+  font-size: 10vh;
+  text-align: center;
+}
+
+#about .textContainer p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.mainContent p {
+  font-family: strretch;
+  font-size: 27vh;
+  padding: 15px;
+}
+
+.navigationLinks {
+  height: 100vh;
+  padding-top: 15px;
+  position: fixed;
+  right: 0px;
+  width: 40vw;
+}
+
+.navigationLinks li {
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+.navigationLinks li a {
+  color:#131313;
+  font-family: strretch;
+  font-size: 4.5vw;
+  text-decoration: none;
+}
+
+.wrap {
+  height: 100vh;
+}
+
+nav.flexContainer {
+  justify-content: flex-end;
+  text-align: right;
+}
